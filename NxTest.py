@@ -328,13 +328,13 @@ class MainWindow(wx.Frame):
         self.conf = {"gatenum":1.8, "clight":260.0, "tvcostone":0, "lightdis":1}
         
         
-        wx.Frame.__init__(self, None, -1, '青岛电子能效计量工具 - PowerBy 青岛电子 新品转化平台 ' + VERSION, 
+        wx.Frame.__init__(self, None, -1, 'XXXX能效计量工具  ' + VERSION, 
                           size=(950, 750), style=wx.DEFAULT_FRAME_STYLE)
         self.SetBackgroundColour('D4D0C8')
         self.statusbar = self.CreateStatusBar()
         self.statusbar.SetFieldsCount(4)
         self.statusbar.SetStatusWidths([-5, -3, -2, -2])
-        self.statusbar.SetStatusText(" Power by 青岛电子 新品转化平台 liuweitao@haier.com " + VERSION, 0)
+        self.statusbar.SetStatusText(" Power by liuwt123@gmail.com " + VERSION, 0)
         self.statusbar.SetStatusText("型号: 平均亮度  最小亮度 平均能效", 1)
         self.statusbar.SetStatusText("报警门限：" + str(self.conf["gatenum"]), 2)
         self.statusbar.SetStatusText("中心亮度限值：260.0", 3)
@@ -386,7 +386,7 @@ class MainWindow(wx.Frame):
         f2box = wx.FlexGridSizer(1, 5, 10, 30)
         
         #-----------------  单 板 自 动 检 测 系 统  ------------------
-        ltLabel = wx.StaticText(self, -1, '青 岛 电 子 能 效 计 量 工 具', style=wx.TE_CENTER)
+        ltLabel = wx.StaticText(self, -1, 'X X X X 能 效 计 量 工 具', style=wx.TE_CENTER)
         ltLabel.SetFont(wx.Font(36, wx.SWISS, wx.NORMAL, wx.BOLD, False, 'Tahoma'))
         
         #-----------------f0box-----------------------
@@ -613,8 +613,7 @@ class MainWindow(wx.Frame):
     def About(self, event):
         msg = "关于软件:\n\n"
         msg += "收集亮度、功率数据根据型号尺寸计算能效值。\n\n"
-        msg += "PowerBy 青岛电子 新品转化平台\n\n"
-        msg += "问题反馈：liuweitao@haier.com    Tel:(8893)7715\n\n"
+        msg += "问题反馈：liuwt123@gmail.com\n\n"
         msg += "软件更新：http://192.168.79.188/iscsky/\n\n"
         msg += "                    http://192.168.10.10/iscsky/"
         dlg = wx.MessageDialog(None, msg, '使用帮助', wx.OK | wx.ICON_INFORMATION)
