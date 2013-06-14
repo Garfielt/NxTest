@@ -3,23 +3,23 @@ NxTest
 
 An energy efficiency test tool for TV online
 
-![Ч��ͼ](http://github.com/Garfielt/NxTest/raw/master/NxTest.png)
+![效果图](http://github.com/Garfielt/NxTest/raw/master/NxTest.png)
 
 
-Runtime��
+Runtime：
 
 Python 2.7
 Wxpython
 Pyserial
 
 
-ʹ�÷�����
+使用方法：
 
-��·��������Chroma 7120���ɸ��Ĵ���ͨ�Ų�������������ɫ�����ǣ�
-�������ఴ�ո�����ʼ����
+电路串口连接Chroma 7120（可更改串口通信部分适配其他彩色分析仪）
+输入机编按空格键开始测试
 
-���㹫ʽ Eff = (L*S)/(Pe-10)/1.1
+计算公式 Eff = (L*S)/(Pe-10)/1.1
 
-layout���ƵĻ��ɸ��Ĳ��ִ�����������ֲʹ��.
+layout类似的话可更改部分代码后借用移植使用.
 
-����BSDЭ�鷢�����ɰ������޸�ʹ�á�
+采用BSD协议发布，可按需求修改使用。
