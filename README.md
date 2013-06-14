@@ -3,36 +3,23 @@ NxTest
 
 An energy efficiency test tool for TV online
 
-![Ð§¹ûÍ¼](http://github.com/Garfielt/NxTest/raw/master/NxTest.png)
+![Ð§ï¿½ï¿½Í¼](http://github.com/Garfielt/NxTest/raw/master/NxTest.png)
 
 
-Runtime£º
+Runtimeï¿½ï¿½
 
 Python 2.7
 Wxpython
 Pyserial
 
 
-Ê¹ÓÃ·½·¨£º
+Ê¹ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½
 
-µçÂ·´®¿ÚÁ¬½ÓChroma 7120£¨¿É¸ü¸Ä´®¿ÚÍ¨ÐÅ²¿·ÖÊÊÅäÆäËû²ÊÉ«·ÖÎöÒÇ£©
-ÊäÈë»ú±à°´¿Õ¸ñ¼ü¿ªÊ¼²âÊÔ
+ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Chroma 7120ï¿½ï¿½ï¿½É¸ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Í¨ï¿½Å²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à°´ï¿½Õ¸ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
 
-¼ÆËã¹«Ê½ Eff = (L*S)/(Pe-10)/1.1
+ï¿½ï¿½ï¿½ã¹«Ê½ Eff = (L*S)/(Pe-10)/1.1
 
-layoutÀàËÆµÄ»°¿É¸ü¸Ä²¿·Ö´úÂëºó½èÓÃÒÆÖ²Ê¹ÓÃ.
+layoutï¿½ï¿½ï¿½ÆµÄ»ï¿½ï¿½É¸ï¿½ï¿½Ä²ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²Ê¹ï¿½ï¿½.
 
-²ÉÓÃBSDÐ­Òé·¢²¼£¬¿É°´ÐèÇóÐÞ¸ÄÊ¹ÓÃ¡£
-
-
-Copyright ? 2013 Garfielt <liuwt123@gmail.com> All Rights Reserved. 
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission. 
-
-THIS SOFTWARE IS PROVIDED BY [LICENSOR] "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+ï¿½ï¿½ï¿½ï¿½BSDÐ­ï¿½é·¢ï¿½ï¿½ï¿½ï¿½ï¿½É°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½Ê¹ï¿½Ã¡ï¿½
