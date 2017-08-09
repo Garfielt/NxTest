@@ -3,7 +3,7 @@ NxTest
 
 An energy efficiency test tool for TV online
 
-![效果图](http://github.com/Garfielt/NxTest/raw/master/NxTest.png)
+![效果图](https://raw.githubusercontent.com/Garfielt/NxTest/master/NxTest.png)
 
 
 Runtime：
